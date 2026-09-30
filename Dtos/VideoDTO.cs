@@ -1,6 +1,7 @@
-namespace DefaultNamespace;
-
-public class VideoDTO
+namespace ReflectionConsoleApp.Dtos
 {
-    
+    public class VideoDTO
+    {
+        public string Name { get; set; }
+    }
 }
