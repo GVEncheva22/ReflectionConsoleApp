@@ -3,4 +3,4 @@ builder.Services.AddControllers();
 var app = builder.Build();
 app.MapControllers();
 
-appRun();
+app.Run();
