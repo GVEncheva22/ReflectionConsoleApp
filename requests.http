@@ -1,0 +1,13 @@
+###  PlayVideo
+GET http://localhost:5000/api/watch/playvideo
+
+### AddVideo
+POST http://localhost:5000/api/watch/addvideo
+Content-Type: application/json
+
+{
+  "title": "Test Video"
+}
+
+### DeleteVideo
+DELETE http://localhost:5000/api/watch/deletevideo
